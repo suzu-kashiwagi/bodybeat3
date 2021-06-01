@@ -1,0 +1,2442 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.header{
+    background-color:#545A63;
+    height:90px;
+}
+
+.header-logo{
+    color: ghostwhite;
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    position: absolute;
+    top:25px;
+    left:70px;
+    z-index: 1;
+}
+
+.header-img{
+    height: 160px;
+    margin-top:10px;
+    margin-left: 10px;
+    position:absolute;
+    clear: left;
+    clip: rect(0px 90px 80px 0px);
+}
+
+.header-list{
+    float:right;
+}
+
+.h-list{
+    list-style:none;
+    color:ghostwhite;
+    float:left;
+    font-size: 15px;
+    padding: 23px 20px;
+}
+
+@media(max-width:420px){
+    .header-logo{
+        font-size: 30px;
+        top: 35px;
+    }
+
+    .h-list{
+        font-size: 5px;
+        padding: 5px 10px;
+    }
+}
+
+@media(min-width:421px max-width:800){
+    .header-logo{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:320px){
+    .header-img{
+        height: 120px;
+        clip: rect(0px 90px 60px 0px);
+    }
+
+    .header{
+        height: 70px;
+    }
+}
+
+.menu-btn{
+    cursor: pointer;
+}
+
+.menu-btn:hover{
+    font-weight: bold;
+}
+
+.top{
+    background-image: url(https://cdn.peraichi.com/userData/5b3c7ad4-572c-480d-83ce-2db40a0000fe/img/5d236c8796f93/original.jpeg);
+    background-size: cover;
+    background-color:rgba(255,255,255,0.7);
+    background-blend-mode:lighten;
+    height:600px;
+}
+
+h1,h2,h3{
+    text-align: center;
+    margin:auto;
+}
+
+h1{
+    font-size: 80px;
+    color: #333F50;
+    padding-top: 100px;
+    text-shadow:2px 4px 0 #AFABAB;
+    font-family: "Arial Black",sans-serif;
+    font-weight: bold;
+    border-bottom:3px solid #000000;
+    width: 600px;
+    padding-bottom:15px ;
+}
+
+h2{
+    font-size:25px;
+    color:#333F50;
+    padding-top: 10px;
+    font-family: "Arial Black",sans-serif;
+    clear:left;
+}
+
+h3{
+    font-size: 35px;
+    color:#333F50 ;
+    font-family:"MS ゴシック",monospace;
+    border-bottom:13px solid #309AA2  ;
+    margin-bottom: 20px;
+    clear:left;
+}
+
+.八王子徒歩5分{
+    padding-top: 70px;
+    width:260px;
+}
+
+.業界最安値{
+    width:230px;
+}
+
+.業界初生涯サポート付き{
+    width:400px;
+}
+
+.top-img{
+    position:absolute;
+    top:185px;
+    left:70%;
+    height:17%;
+    filter:drop-shadow(5px 5px 0px #AFABAB)
+}
+
+@media(max-width:1024px){
+    .top-img{
+        height: 10%;
+        top: 193px;
+        left: 75%;
+    }
+}
+
+@media(max-width:800px){
+    .top-img{
+        top: 230px;
+        left: 82%;
+    }
+}
+
+@media(max-width:420px){
+    .top{
+        height: 400px;
+    }
+
+    .top-img{
+        position: absolute;
+        top: 177px;
+        left: 84%;
+        height: 7%;
+    }
+    h1{
+        font-size: 40px;
+        width: 300px;
+        padding-bottom: 5px;
+        padding-top: 60px;
+    }
+
+    h2{
+        font-size:15px;
+    }
+
+    h3{
+        font-size: 25px;
+        border-bottom:8px solid #309AA2  ;
+    }
+
+    .八王子徒歩5分{
+        padding-top: 50px;
+        width: 190px;
+    }
+
+    .業界最安値{
+        width: 180px;
+    }
+
+    .業界初生涯サポート付き{
+        width: 290px;
+    }
+}
+
+@media(max-width:320px){
+    .top-img{
+        top: 163px;
+        left: 88%;
+        filter:drop-shadow(0px 0px 0px #AFABAB)
+    }
+    .top{
+        height: 350px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .八王子徒歩5分{
+        padding-top: 30px;
+        width: 160px;
+    }
+
+    .業界最安値{
+        width: 150px;
+    }
+
+    .業界初生涯サポート付き{
+        width: 260px;
+    }
+}
+
+.top-comment{
+    padding-top:30px;
+}
+
+.top-comment{
+    text-align: center;
+    font-size: 40px;
+    font-family: "游ゴシック";
+}
+
+.btn{
+    display: inline-block;
+    float:left;
+    width:30%;
+    height:50px;
+    font-family: "游ゴシック";
+    font-weight: 600;
+    text-align: center;
+    padding-top:20px;
+    box-shadow:10px 10px lightgray;
+    margin-bottom: 60px;
+}
+
+.a{
+    color: ivory;
+    font-size: 20px;
+    padding: 20px;
+    width: 30%;
+    font-family: "游ゴシック";
+    font-weight: 600;
+    box-shadow: 10px 10px lightgray;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 70px;
+    transition: all 1s;
+}
+
+.a:hover{
+    opacity: 0.6;
+}
+
+.a:active{
+    position: relative;
+    top:10px;
+    left: 10px;
+    box-shadow: none;
+}
+
+.instagram-button{
+    background-color: #CE9FE1;
+}
+
+.form-button{
+    background-color:#7DBDB1 ;
+    margin-left: 17%;
+    margin-right:5%;
+}
+
+.コロナ説明{
+    font-family: "游ゴシック";
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 70px;
+}
+
+@media(max-width:800px){
+    .a{
+        width: 45%;
+    }
+
+    .form-button{
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+
+    .コロナ説明{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:420px){
+    .top-comment{
+        padding-top: 10px;
+        font-size: 13px;
+    }
+
+    .a{
+        width: 80%;
+        clear: left;
+        font-size: 15px;
+        margin: 10px 10%;
+    }
+
+    .コロナ説明{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:360px){
+    .top-comment{
+        font-size: 19px;
+    }
+}
+
+@media(max-width:320px){
+    .top-comment{
+        font-size: 17px;
+    }
+}
+
+.trainer{
+    background-color: #8497B0;
+    clear:left;
+}
+
+
+.top-triangle{
+    width: 0;
+    height: 0;
+    border-right: 210px solid transparent;
+    border-top: 350px solid white;
+    position:absolute;
+    margin-top:50px;
+}
+
+.parallelogram{
+    width: 55%;
+    height: 640px;
+    background:white;
+    transform: skewX(-10deg);
+    position:absolute;
+    box-shadow: 30px 30px 0 #ADB9CA;
+    margin-top:50px;
+    color: white;
+}
+
+@media(max-width:1024px){
+    .parallelogram{
+        height: 680px;
+    }
+}
+
+@media(max-width:800px){
+    .parallelogram{
+        height: 600px;
+    }
+}
+
+@media(max-width:420px){
+    .top-triangle{
+        border-right: 110px solid transparent;
+        margin-top: 20px;
+    }
+    .parallelogram{
+        width: 50%;
+        transform: skewX(-10deg);
+        height: 350px;
+        box-shadow: 20px 20px 0 #ADB9CA;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:414px){
+    .parallelogram{
+        height: 330px;
+    }
+}
+
+@media(max-width:360px){
+    .top-triangle{
+        border-top: 250px solid white;
+    }
+    .parallelogram{
+        height: 300px;
+        box-shadow: 10px 10px 0 #ADB9CA;
+    }
+}
+
+@media(max-width:320px){
+    .parallelogram{
+        height: 285px;
+    }
+}
+
+.gold-text{
+    font-family: "MS ゴシック";
+    color:#BF9000;
+    font-weight: bold;
+    margin:0px;
+    font-size:60px;
+    position:relative;
+    text-shadow:2px 4px 0 #545A63;
+    text-align:left;
+    margin-left:600px;
+} 
+
+.text1{
+    padding-top:100px;
+}
+
+.gold-text-small{
+    font-size: 30px;
+    position:relative;
+    text-shadow:2px 2px 0 #545A63;
+}
+
+.text3{
+    padding-top:40px;
+}
+
+.blue-text{
+    font-size:35px;
+    font-weight:bold;
+    margin:0px 20px 0px 600px;
+    color:#333F50;
+    position:relative;
+    text-align:left;
+    font-family:"游ゴシック";
+}
+
+.number{
+    font-size:55px;
+}
+
+.show{
+    font-size:50px;
+}
+
+.説明{
+    font-size:19px;
+    text-align: left;
+    position: relative;
+    margin-left:750px;
+    padding-top:10px;
+    padding-bottom:80px;
+    font-family:"游ゴシック";
+}
+
+@media(max-width:1024px){
+    .gold-text{
+        margin-left: 400px;
+    }
+
+    .blue-text{
+        margin: 0px 20px 0px 300px;
+    }
+
+    .説明{
+        margin-left: 300px;
+        padding-bottom: 100px;
+    }
+}
+
+@media(max-width:800px){
+    .gold-text{
+        margin-left: 300px;
+        font-size: 40px;
+    }
+
+    .blue-text{
+        margin: 0px 10px 0px 180px;
+        font-size: 25px;
+    }
+
+    .説明{
+        margin-left: 130px;
+    }
+}
+
+@media(max-width:420px){
+    .gold-text{
+        margin-left: 90px;
+        font-size: 20px;
+        text-shadow:1px 2px 0 #545A63;
+    }
+
+    .text1{
+        padding-top: 45px;
+        text-shadow:1px 1px 0 #545A63;
+    }
+
+    .gold-text-small{
+        font-size: 15px;
+    }
+
+    .blue-text{
+        font-size: 15px;
+        margin:0px 20px 0px 90px;
+        text-align: right;
+    }
+
+    .number{
+        font-size:30px ;
+    }
+
+    .show{
+        font-size: 25px;
+    }
+
+    .説明{
+        font-size: 10px;
+        margin-left: 30px;
+        padding-bottom: 45px;
+    }
+}
+
+@media(max-width:360px){
+    .number{
+        font-size: 20px;
+    }
+
+    .show{
+        font-size: 18px;
+    }
+
+    .説明{
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width:320px){
+    .blue-text{
+        font-size: 10px;
+    }
+
+    .number{
+        font-size: 15px;
+    }
+
+    .show{
+        font-size: 15px;
+    }
+
+    .text3{
+        padding-top: 20px;
+    }
+
+    .説明{
+        padding-bottom: 35px;
+    }
+}
+
+.contents{
+    border-bottom:3px solid #8497B0;
+    padding-top:80px;
+    width:350px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    color:#1F4E79;
+    text-shadow: 3px 3px 2px #c0cddf;
+}
+
+@media(max-width:420px){
+    .contents{
+        font-size: 25px;
+        width: 200px;
+        padding-top: 40px;
+    }
+}
+
+.料金説明{
+    font-size:40px;
+    text-align: center;
+    margin-top:60px;
+    margin-bottom:0px;
+    font-family: "游ゴシック";
+    font-size:35px;
+}
+
+.コース{
+    font-size:50px;
+    border-bottom: 13px solid #E0CA85;
+}
+
+@media(max-width:800px){
+    .料金説明{
+        font-size: 30px;
+    }
+
+    .コース{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:420px){
+    .料金説明{
+        font-size: 20px;
+        margin: 30px 20px;
+        word-break:keep-all;
+    }
+
+    .コース{
+        font-size: 25px;
+        border-bottom: 8px solid #E0CA85;
+    }
+}
+
+@media(max-width:320px){
+    .料金説明{
+        font-size: 15px;
+        margin: 20px 20px;
+    }
+}
+
+.short{
+    background-image: url(https://cdn.pixabay.com/photo/2019/11/11/12/12/woman-4618189_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:#aee6fa;
+    background-blend-mode: multiply;
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+}
+
+.price-name{
+    text-shadow: 3px 2px 0px #7b818a;
+    font-family: "ＭＳ 明朝";
+    font-weight: bold;
+    color:white;
+    font-size: 55px;
+    text-align: center;
+}
+
+.値段{
+    font-size: 90px;
+}
+.course-name{
+    text-shadow: 3px 2px 0px #7b818a;
+    font-family: "ＭＳ 明朝";
+    font-weight: bold;
+    color:white;
+    font-size: 45px;
+    padding-right:0px;
+    margin-bottom: 0px;
+}
+
+.light{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:#a4f8e6;
+    background-blend-mode: multiply;
+    width: 50%;
+    float: left;
+    margin-top:60px ;
+}
+
+.plus{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/02/23/29/woman-3057294_1280.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color:#f7ef84;
+    background-blend-mode: multiply;
+    width: 50%;
+    float: left;
+}
+
+.expert{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/06/15/adult-1867743_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:#DECCE5;
+    background-blend-mode: multiply;
+    width: 50%;
+    float: left;
+    margin-bottom:70px ;
+}
+
+@media(max-width:1024px){
+    .値段{
+        font-size: 70px;
+    }
+
+    .price-name{
+        font-size: 35px;
+    }
+
+    .course-name{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:800px){
+    .値段{
+        font-size: 60px;
+    }
+
+    .course-name{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:420px){
+    .short{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .price-name{
+        font-size: 30px;
+    }
+
+    .値段{
+        font-size: 60px;
+    }
+
+    .course-name{
+        font-size: 25px;
+    }
+
+    .light{
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .plus{
+        width: 100%;
+    }
+
+    .expert{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:360px){
+    .short{
+        margin-top: 10px;
+    }
+
+    .値段{
+        font-size: 40px;
+    }
+
+    .price-name{
+        font-size: 20px;
+    }
+
+    .course-name{
+        font-size: 20px;
+    }
+}
+
+.契約{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "MS ゴシック";
+    text-align: center;
+    color: #3B3838;
+    
+}
+
+.入会金値段{
+    font-size: 70px;
+}
+
+.三角{
+    font-size: 60px;
+    color:#D0CECE;
+    padding: 50px;
+}
+
+@media(max-width:800px){
+    .契約{
+        font-size:40px ;
+    }
+
+    .入会金値段{
+        font-size: 50px;
+    }
+}
+
+@media(max-width:420px){
+    .契約{
+        font-size: 25px;
+    }
+
+    .入会金値段{
+        font-size: 35px;
+    }
+
+    .三角{
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    .入会金値段{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:360px){
+    .契約{
+        font-size: 18px;
+    }
+
+    .三角{
+        font-size: 25px;
+    }
+
+    .入会金値段{
+        font-size: 25px;
+    }
+}
+
+.price-img{
+    height: 350px;
+    filter:invert(50%) drop-shadow(15px 12px 0px black);
+    margin-left:10%;
+    margin-top:20px;
+    float: left;
+}
+
+.契約説明{
+    transform: rotate(-10deg);
+    font-size: 50px;
+    font-family: "MS ゴシック";
+    color: #3B3838;
+    font-weight: bold;
+    width: 700px;
+    text-align: center;
+    padding-bottom:0px;
+    background:linear-gradient(180deg,white 0%,white 60%,#FFFF8A 40%,#FFFF8A 100%)
+}
+
+.無料説明{
+    margin-top:15px;
+    margin-bottom:180px;
+}
+
+.半額説明{
+    margin-bottom:0px;
+}
+
+.半額{
+    font-size: 70px;
+    color: #22BCA8;
+}
+
+.契約内容{
+    float: left;
+    margin-left:50px;
+}
+
+@media(max-width:1024px){
+    .price-img{
+        height: 200px;
+        margin-left: 5%;
+    }
+
+    .契約説明{
+        font-size: 40px;
+        width: 650px;
+    }
+
+    .無料説明{
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width:800px){
+    .price-img{
+        margin-top: 50px;
+        height: 160px;
+        margin-left: 2%;
+    }
+
+    .契約説明{
+        font-size: 30px;
+        width: 500px;
+    }
+
+    .半額{
+        font-size:50px ;
+    }
+
+    .無料説明{
+        margin-bottom: 70px;
+    }
+}
+
+@media(max-width:420px){
+    .price-img{
+        height: 80px;
+        margin-left: 1%;
+        filter:invert(50%) drop-shadow(5px 5px 0px black);
+    }
+
+    .契約説明{
+        font-size: 20px;
+        width: 250px;
+        background:linear-gradient(180deg,white 0%,white 85%,#FFFF8A 15%,#FFFF8A 100%)
+    }
+
+    .半額{
+        font-size: 20px;
+    }
+
+    .契約内容{
+        margin-left: 20px;
+    }
+
+    .無料説明{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:360px){
+    .price-img{
+        height: 70px;
+    }
+
+    .契約説明{
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .半額{
+        font-size: 15px;
+    }
+
+    .無料説明{
+        margin-bottom: 30px;
+    }
+}
+
+.他社比較{
+    clear: left;
+}
+
+table{
+    font-size:20px;
+    border-collapse:collapse;
+    text-align: center;
+    margin:30px auto ;
+}
+
+table th,table td{
+    border:solid 2px white
+}
+
+table th{
+    background-color: #8497B0;
+    color: white;
+    font-size: 30px;
+}
+
+td{
+    font-family: "游ゴシック";
+    padding:10px 30px;
+    background-color: #F0F0F0;
+}
+
+.BodyBeat-name{
+    background-color: #FFC000;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding:10px;
+    text-shadow: 3px 3px 0px gray;
+    border-left: double 7px white;
+}
+
+.BodyBeat{
+    background-color: #FFF2CC;
+    border-left: double 7px white;
+}
+
+.t-list{
+    list-style:none;
+}
+
+.td-title{
+    background-color:#DAE3F3;
+}
+
+@media(max-width:800px){
+    .table{
+        font-size: 15px;
+    }
+
+    td{
+        padding: 5px 10px;
+    }
+
+    table th{
+        font-size: 20px;
+    }
+
+    .BodyBeat-name{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:420px){
+    table{
+        font-size: 10px;
+    }
+
+    table th{
+        font-size: 10px;
+    }
+
+    .BodyBeat-name{
+        font-size: 20px;
+    }
+
+    td{
+        padding: 3px;
+    }
+}
+
+@media(max-width:360px){
+    .table{
+        margin-top: 10px;
+    }
+}
+
+.main-comment{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/07/11/36/girl-1031308_1280.jpg);
+    background-size:cover;
+    background-position:bottom;
+    background-color:rgba(236, 228, 228, 0.151);
+    background-blend-mode:lighten;
+    
+}
+
+.mc-top{
+    font-size:40px;
+    color: white;
+    font-family: "游ゴシック";
+    font-weight: bold;
+    text-shadow: 3px 4px 3px #323232;
+    background: linear-gradient(transparent 85%, #309AA2 85%);
+    text-align: center;
+    padding-top: 130px;
+    margin: 100px 250px 80px 250px;
+}
+
+.mc-bottom{
+    font-size: 35px;
+    font-family:"游ゴシック";
+    color: white;
+    text-shadow: 3px 3px 3px #323232;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+@media(max-width:1024px){
+    .mc-top{
+        margin: 50px 20px 30px 20px;
+    }
+
+    .mc-bottom{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:800px){
+    .mc-top{
+        font-size:30px ;
+    }
+
+    .mc-bottom{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:420px){
+    .mc-top{
+        font-size: 15px;
+        margin: 10px;
+        background: linear-gradient(transparent 95%, #309AA2 95%);
+        word-break: break-all;
+        padding-top: 100px;
+    }
+
+    .mc-bottom{
+        font-size: 10px;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:360px){
+    .mc-top{
+        font-size: 13px;
+        padding-top: 60px;
+    }
+}
+
+.保証{
+    width: 400px;
+}
+
+@media(max-width:420px){
+    .保証{
+        width: 300px;
+    }
+}
+
+@media(max-width:360px){
+    .保証{
+        padding-top: 15px;
+    }
+}
+
+.guarantee-left{
+    background-color: #FFE699;
+    width: 43%;
+    margin-top:70px;
+    margin-left:5% ;
+    float:left ;
+    height: 940px;
+}
+
+.最低価格保証{
+    font-weight:bold;
+    font-family:"游ゴシック";
+    font-size:30px;
+    padding-top:80px;
+    padding-left:30px;
+}
+
+.最低価格{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #E66D2A;
+    text-shadow:2px 2px 0px #F4B183;
+    font-size: 70px;
+    text-align: right;
+    padding-right: 100px;
+    margin-top:0px;
+}
+
+.乗り換え割で{
+    font-size: 30px;
+    font-family: "游ゴシック";
+    padding-left:35px;
+}
+
+.保証内容{
+    font-size: 40px;
+    font-family: "游ゴシック";
+    font-weight: bold;
+    text-shadow:2px 2px 0px #F4B183;
+    color: #E66D2A ;
+    text-align: center;
+    background: linear-gradient(transparent 65%, #FFFBF1 65%);
+}
+
+.キャンペーン{
+    width: 600px;
+    margin:0px 20px;
+}
+
+.さらに{
+    font-family:"游ゴシック";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.ウエスト{
+    width: 350px;
+    margin: 0px 140px;
+}
+
+.保証説明{
+    font-family: "游ゴシック";
+    font-size:25px;
+    margin: 60px 100px 0px 130px;
+    padding-bottom:63px;
+}
+
+.guarantee-right{
+    background-color: #D2F0F2;
+    margin-top: 70px;
+    float: right;
+    width: 43%;
+    margin-right: 5%;
+    height: 940px;
+}
+
+.不安{
+    font-weight:bold;
+    font-family:"游ゴシック";
+    font-size:30px;
+    padding-top:80px;
+    padding-left:70px;
+    margin-bottom: 0px;
+}
+
+.返金保証{
+    font-family:"游ゴシック";
+    color: #309AA2;
+    text-shadow:2px 2px 0px #C9C9C9;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 3px #767171;
+    width: 500px;
+    margin:0px 0px 80px 75px;
+    padding-bottom: 30px;
+}
+
+.返金保証コメント{
+    font-family:"游ゴシック";
+    font-size: 45px;
+    text-align: center;
+}
+
+.返金保証説明{
+    font-family: "游ゴシック";
+    font-size: 25px;
+    padding-left: 155px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+@media(max-width:1024px){
+    .guarantee-left{
+        margin-left: 2%;
+        width: 47%;
+        height: 800px;
+    }
+
+    .最低価格保証{
+        padding-top: 30px;
+    }
+
+    .保証内容{
+        font-size: 33px;
+    }
+
+    .キャンペーン{
+        width: 450px;
+        margin:0px 10px;
+    }
+
+    .ウエスト{
+        width: 300px;
+        margin: 0px 80px;
+    }
+
+    .保証説明{
+        font-size: 20px;
+        margin: 40px 20px 20px 80px;
+    }
+
+    .guarantee-right{
+        width: 45%;
+        height: 800px;
+    }
+
+    .不安{
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    .返金保証{
+        margin: 0px 30px 0px 30px;
+        width: 400px;
+        padding-bottom: 20px;
+    }
+
+    .返金保証コメント{
+        font-size: 35px;
+    }
+
+    .返金保証説明{
+        padding-left: 70px;
+    }
+}
+
+@media(max-width:800px){
+    .guarantee-left{
+        width: 100%;
+        height: 800px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .乗り換え割で{
+        padding-left: 100px;
+    }
+
+    .キャンペーン{
+        margin: 0px auto;
+    }
+
+    .さらに{
+        margin-top: 20px;
+    }
+
+    .ウエスト{
+        margin: 0px auto;
+    }
+
+    .保証説明{
+        text-align: center;
+    }
+
+    .guarantee-right{
+        width: 100%;
+        margin: 10px 0px 50px 0px;
+        height: 770px;
+    }
+
+    .返金保証{
+        margin: 0px auto;
+        width: 700px;
+    }
+
+    .返金保証説明{
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+@media(max-width:420px){
+    .guarantee-left{
+        height: 550px;
+    }
+
+    .最低価格保証{
+        font-size: 20px;
+        padding-top: 30px;
+        padding-left:15px;
+    }
+
+    .最低価格{
+        font-size: 50px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .乗り換え割で{
+        font-size: 20px;
+    }
+
+    .保証内容{
+        font-size: 25px;
+    }
+
+    .キャンペーン{
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .さらに{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .ウエスト{
+        width: 250px;
+        margin:0 auto;
+    }
+
+    .保証説明{
+        font-size: 15px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .guarantee-right{
+        margin: 10px 0px 50px 0px;
+        clear: both;
+        height: 510px;
+    }
+
+    .不安{
+        font-size: 20px;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+
+    .返金保証{
+        font-size: 40px;
+        width: 300px;
+        padding-bottom: 10px;
+    }
+
+    .返金保証コメント{
+        font-size: 25px;
+    }
+
+    .返金保証説明{
+        font-size: 15px;
+        padding:0px;
+        text-align: center;
+    }
+}
+
+@media(max-width:360px){
+    .最低価格保証{
+        font-size: 15px;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    .最低価格{
+        font-size: 40px;
+        padding-right: 50px;
+        margin-bottom: 10px;
+    }
+
+    .保証内容{
+        font-size: 20px;
+    }
+
+    .乗り換え割で{
+        font-size: 15px;
+    }
+
+    .さらに{
+        font-size: 15px;
+    }
+
+    .キャンペーン{
+        width: 300px;
+    }
+
+    .ウエスト{
+        width: 200px;
+    }
+
+    .guarantee-left{
+        height: 430px;
+    }
+
+    .不安{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .返金保証{
+        font-size:35px ;
+    }
+
+    .返金保証コメント{
+        font-size: 20px;
+    }
+
+    .guarantee-right{
+        height: 410px;
+    }
+}
+
+.サービス内容{
+    clear: left;
+}
+
+.空間{
+    width: 75%;
+    height: 450px;
+    margin-top: 40px;
+    opacity: 0.4;
+}
+
+.内容名{
+    font-size: 60px;
+    color: #595959;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    font-weight: bold;
+    text-shadow: 3px 5px 0px #CACACA;
+    position: absolute;
+    z-index: 1;
+}
+
+.頭{
+    font-size: 75px;
+    color: #309AA2;
+}
+
+.個室{
+    padding-left: 500px;
+    padding-top: 330px;
+    position: absolute;
+    z-index: 1;
+}
+
+.アメニティ{
+    background-image: url(https://images.pexels.com/photos/2475878/pexels-photo-2475878.jpeg?cs=srgb&dl=pexels-li-sun-2475878.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0 0 auto;
+    float: right;
+    opacity: 0.4;
+    padding: 230px 550px;
+}
+
+.アメニティ説明{
+    font-size: 40px;
+    margin-top: 290px;
+    margin-left: 100px;
+}
+
+.充実{
+    margin-top: 410px;
+    margin-left: 250px;
+}
+
+.飲{
+    background-image: url(https://images.pexels.com/photos/1458671/pexels-photo-1458671.jpeg?cs=srgb&dl=pexels-daria-shevtsova-1458671.jpg&fm=jpg);
+    background-size: cover;
+    background-position: top;
+    opacity: 0.4;
+    padding: 230px 550px;
+    float: left;
+    margin-top: 50px;
+}
+
+.プロテイン説明{
+    font-size: 40px;
+    margin-top: 850px;
+    margin-left: 750px;
+}
+
+.無料提供{
+    margin-top: 920px;
+    margin-left:75%;
+}
+
+.親子{
+    background-image: url(https://images.pexels.com/photos/3875220/pexels-photo-3875220.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    padding: 230px 550px;
+    float: right;
+}
+
+.親子連れ{
+    margin-top: 1400px;
+    margin-left: 150px;
+}
+
+.食事{
+    background-image: url(https://images.pexels.com/photos/936611/pexels-photo-936611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    padding: 230px 550px;
+    float: left;
+}
+
+.食事説明{
+    font-size: 40px;
+    margin-top: 1830px;
+    margin-left: 750px;
+}
+
+.食事サポート{
+    margin-top: 1890px;
+    margin-left: 700px;
+}
+
+@media(max-width:1024px){
+    .空間{
+        height: 400px;
+    }
+
+    .個室{
+        padding-left: 200px;
+        padding-top: 280px;
+    }
+
+    .アメニティ{
+        padding:200px 400px;
+    }
+
+    .アメニティ説明{
+        font-size: 30px;
+        margin-top: 250px;
+    }
+
+    .充実{
+        margin-top: 350px;
+        margin-left: 150px;
+    }
+
+    .飲{
+        padding: 200px 400px;
+    }
+
+    .プロテイン説明{
+        font-size: 30px;
+        margin-top: 730px;
+        margin-left: 550px;
+    }
+
+    .無料提供{
+        margin-top: 790px;
+        margin-left: 65%;
+    }
+
+    .親子{
+        padding: 200px 400px;
+    }
+
+    .親子連れ{
+        margin-top: 1230px;
+        margin-left: 100px;
+    }
+
+    .食事{
+        padding: 200px 400px;
+    }
+
+    .食事説明{
+        font-size:30px ;
+        margin-top: 1600px;
+        margin-left: 450px;
+    }
+
+    .食事サポート{
+        margin-top: 1650px;
+        margin-left: 300px;
+    }
+}
+
+@media(max-width:800px){
+    .空間{
+        height: 340px;
+    }
+
+    .内容名{
+        font-size: 40px;
+    }
+
+    .頭{
+        font-size: 55px;
+    }
+
+    .個室{
+        padding-top: 260px;
+    }
+
+    .アメニティ{
+        padding: 150px 300px;
+    }
+
+    .アメニティ説明{
+        font-size: 20px;
+        margin-top: 200px;
+        margin-left: 80px;
+    }
+
+    .充実{
+        margin-top: 270px;
+        margin-left: 100px;
+    }
+
+    .飲{
+        padding:150px 300px;
+    }
+
+    .プロテイン説明{
+        font-size: 20px;
+        margin-top: 570px;
+        margin-left: 400px;
+    }
+
+    .無料提供{
+        margin-top: 610px;
+    }
+
+    .親子{
+        padding: 150px 300px;
+    }
+
+    .親子連れ{
+        margin-top: 950px;
+        margin-left: 70px;
+    }
+
+    .食事{
+        padding: 150px 300px;
+    }
+
+    .食事説明{
+        font-size: 20px;
+        margin-top: 1230px;
+        margin-left: 340px;
+    }
+
+    .食事サポート{
+        margin-top: 1280px;
+        margin-left: 270px;
+    }
+}
+
+@media(max-width:420px){
+    .サービス内容{
+        width: 250px;
+    }
+
+    .空間{
+        height: 150px;
+    }
+
+    .内容名{
+        font-size: 20px;
+    }
+
+    .頭{
+        font-size: 30px;
+    }
+
+    .個室{
+        padding-top: 125px;
+        padding-left:70px;
+    }
+
+    .アメニティ{
+        padding: 80px 150px;
+        margin: 10px 0px 0px auto;
+    }
+
+    .アメニティ説明{
+        font-size: 10px;
+        margin-top: 90px;
+        margin-left: 10px;
+    }
+
+    .充実{
+        margin-top: 125px;
+        margin-left: 30px;
+    }
+
+    .飲{
+        padding: 80px 150px;
+        margin: 10px 0px 0px auto;
+    }
+
+    .プロテイン説明{
+        font-size: 10px;
+        margin-top: 270px;
+        margin-left: 180px;
+    }
+
+    .無料提供{
+        margin-top: 290px;
+        margin-left: 250px;
+    }
+
+    .親子{
+        padding: 80px 150px;
+    }
+
+    .親子連れ{
+        margin-top: 470px;
+        margin-left: 20px;
+    }
+
+    .食事{
+        padding: 80px 150px;
+    }
+
+    .食事説明{
+        font-size: 10px;
+        margin-top: 640px;
+        margin-left: 180px;
+    }
+
+    .食事サポート{
+        margin-top: 660px;
+        margin-left: 130px;
+    }
+}
+
+@media(max-width:360px){
+    .食事サポート{
+        margin-left: 110px;
+    }
+}
+
+@media(max-width:320px){
+    .空間{
+        height: 130px;
+    }
+
+    .個室{
+        padding-top: 110px;
+        padding-left: 50px;
+    }
+
+    .アメニティ 飲 親子 食事{
+        padding: 60px 130px;
+    }
+
+    .プロテイン説明{
+        margin-left: 160px;
+    }
+
+    .無料提供{
+        margin-top: 290px;
+        margin-left: 200px;
+    }
+
+    .食事説明{
+        margin-left: 140px;
+    }
+
+    .食事サポート{
+        margin-left: 80px;
+    }
+}
+
+.ba-top{
+    width: 600px;
+    margin-top: 50px;
+    clear: left;
+}
+
+@media(max-width:420px){
+    .ba-top{
+        width: 300px;
+    }
+}
+
+.ラインサポート{
+    background-color: #E8E8EA;
+    margin-top: 250px;
+}
+.phone{
+    position: absolute;
+    height: 650px;
+    padding-top: 50px;
+    padding-left: 100px;
+    background-color:#E8E8EA;
+    clip: rect(0px 530px 800px 0px);
+}
+
+.line-top-comment{
+    color: #309AA2;
+    position: relative;
+    padding-top: 100px;
+    font-weight: bold;
+    font-family:"Meiryo UI";
+    font-size: 50px;
+    padding-left: 600px;
+}
+
+.center-comment{
+    padding-left: 150px;
+}
+
+.bottom-comment{
+    padding-left: 350px;
+}
+
+.ラインサポート説明{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: "游ゴシック";
+    padding-left: 520px;
+}
+
+.line-bottom-comment{
+    position: relative;
+    text-align: right;
+    font-family: "Meiryo UI";
+    font-weight: bold;
+    color: #767171;
+    font-size: 50px;
+    padding-right:60px;
+    padding-bottom: 100px;
+}
+
+.line{
+    background-image: url(https://i2.wp.com/ai-catcher.com/wp-content/uploads/fukidashi_284-1.png?w=1000&ssl=1);
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    width: 250px;
+    color:#309AA2 ;
+    font-weight: bold;
+    margin-left: 60px;
+    transform: scaleX(-1);
+    margin-top: 120px;
+}
+
+.line-icon{
+    transform: scaleX(-1);
+    padding-left: 40px;
+    padding-top: 15px;
+    font-size: 65px;
+}
+
+@media(max-width:1024px){
+    .phone{
+        height: 500px;
+        padding-left: 30px;
+        clip: rect(0px 360px 600px 0px);
+    }
+
+    .line-top-comment{
+        font-size: 35px;
+        padding-left: 300px;
+    }
+
+    .ラインサポート説明{
+        font-size: 20px;
+        padding-left: 450px;
+    }
+
+    .line{
+        width: 200px;
+        margin-top: 140px;
+    }
+
+    .line-icon{
+        font-size: 50px;
+        padding-left: 35px;
+    }
+}
+
+@media(max-width:420px){
+    .ラインサポート{
+        margin-top:100px;
+    }
+
+    .phone{
+        padding-top: 30px;
+        height: 200px;
+        padding-left: 5px;
+        clip: rect(0px 150px 300px 0px);
+    }
+
+    .line-top-comment{
+        font-size: 20px;
+        padding-top: 30px;
+        padding-left: 135px;
+    }
+
+    .center-comment{
+        padding: 0px;
+    }
+
+    .bottom-comment{
+        padding:0px;
+    }
+
+    .ラインサポート説明{
+        font-size: 10px;
+        padding-left: 110px;
+        word-break:keep-all;
+    }
+
+    .line-bottom-comment{
+        font-size: 20px;
+        text-align: center;
+        padding-right: 0px;
+        padding-bottom: 25px;
+    }
+
+    .line-icon{
+        font-size: 25px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .line{
+        width: 100px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:360px){
+    .line-top-comment{
+        padding-left: 125px;
+    }
+
+    .ラインサポート説明{
+        padding-left: 90px;
+    }
+}
+
+@media(max-width:320px){
+    .line-top-comment{
+        font-size: 15px;
+        padding-left: 140px;
+    }
+
+    .ラインサポート説明{
+        word-break: break-all;
+        padding: 0px;
+    }
+
+    .line-bottom-comment{
+        font-size: 15px;
+    }
+
+    .phone{
+        height: 170px;
+        padding-left: 15px;
+        clip: rect(0px 130px 300px 0px);
+    }
+
+    .line-icon{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    .line{
+        width: 80px;
+        margin-top: 60px;
+    }
+}
+
+.入会{
+    width: 400px;
+}
+
+.入会までの流れ{
+    background-image: url(https://images.pexels.com/photos/3927387/pexels-photo-3927387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-color:rgba(255,255,255,0.7);
+    background-blend-mode:lighten;
+}
+
+.contents-of-nagare{
+    font-size: 30px;
+    font-family:"游ゴシック";
+    font-weight: bold;
+    color: ivory;
+    background-color: #8497B0;
+    margin: 0px 100px 50px 100px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.空白上{
+    padding: 40px;
+    margin-top: 80px;
+}
+
+.空白下{
+    padding-top: 40px;
+}
+
+@media(max-width:1024px){
+    .contents-of-nagare{
+        word-break: keep-all;
+    }
+}
+
+@media(max-width:420px){
+    .入会{
+        width: 250px;
+    }
+
+    .contents-of-nagare{
+        font-size: 15px;
+        margin: 0px 20px 20px 20px;
+        word-break: keep-all;
+    }
+
+    .空白上{
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .空白下{
+        padding-top: 10px;
+    }
+}
+
+.comment-of-bottom{
+    clear: left;
+    font-family: "游ゴシック";
+    font-size: 40px;
+    text-align: center;
+    margin: 80px;
+}
+
+@media(max-width:1024px){
+    .comment-of-bottom{
+        margin: 60px;
+    }
+}
+
+@media(max-width:420px){
+    .comment-of-bottom{
+        font-size: 20px;
+        margin: 15px;
+    }
+}
+
+@media(max-width:320px){
+    .comment-of-bottom{
+        font-size: 17px;
+    }
+}
+
+form{
+    font-family: "游ゴシック";
+    border: 4px solid #8497B0;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.form-top{
+    font-size: 30px;
+    font-weight: bold;
+    color: #203864;
+    border-bottom: 4px solid #8497B0;
+    text-align: center;
+    width: 500px;
+    margin: 30px auto;
+}
+
+.p-form{
+    margin-left:25%;
+    font-size: 20px;
+    font-family: "游ゴシック";
+}
+
+.form-input{
+    padding: 10px 0px;
+    width: 400px;
+    text-align: center;
+    margin: 0px 30%;
+    font-family: "游ゴシック";
+    font-size: 20px;
+}
+
+.性別女{
+    margin-left: 30%;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    font-family: "游ゴシック";
+    font-size: 15px;
+    margin:0px 30%;
+}
+
+.form-btn{
+    font-family: "游ゴシック";
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: #8497B0;
+    box-shadow: 5px 5px lightgray;
+    margin: 20px 40%;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.form-btn:hover{
+    opacity: 0.6;
+}
+
+.form-btn:active{
+    position: relative;
+    top:5px;
+    left: 5px;
+    box-shadow: none;
+}
+
+@media(max-width:1024px){
+    .p-form{
+        margin-left: 15%;
+    }
+
+    .form-input{
+        margin: 0px 20%;
+    }
+
+    textarea{
+        margin: 0px 20%;
+    }
+
+    .form-btn{
+        margin: 20px 35%;
+    }
+}
+
+@media(max-width:420px){
+    form{
+        width: 95%;
+    }
+
+    .form-top{
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .p-form{
+        font-size: 15px;
+        margin-left: 5%;
+    }
+
+    .form-input{
+        width: 290px;
+        margin: 0px 10%;
+    }
+
+    .性別女{
+        margin-left: 10%;
+    }
+
+    textarea{
+        width: 290px;
+        margin: 0 10%;
+    }
+
+    .form-btn{
+        margin: 20px 23%;
+    }
+}
+
+@media(max-width:320px){
+    form{
+        border: 2px solid #8497B0;
+    }
+
+    .form-top{
+        font-size: 15px;
+        border-bottom: 2px solid #8497B0;
+        width: 250px;
+    }
+
+    .form-input{
+        width: 250px;
+        font-size: 15px;
+    }
+
+    textarea{
+        width:250px ;
+    }
+
+    .form-btn{
+        font-size: 15px;
+        width: 100px;
+        height:40px ;
+        margin: 20px 33%;
+    }
+}
+.bottom-btn{
+    width: 400px;
+    height: 80px;
+    font-size: 25px;
+    color: white;
+    font-family: "游ゴシック";
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    box-shadow: 10px 10px lightgray;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.bottom-btn:hover{
+    opacity: 0.6;
+}
+
+.bottom-btn:active{
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.line-btn{
+    background-color: #7DBDB1;
+    margin: 80px auto 50px 300px;
+    float: left;
+}
+
+.instagram-btn{
+    background-color: #D1A5E3;
+    margin: 80px auto 50px 80px;
+}
+
+@media(max-width:1024px){
+    .bottom-btn{
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .line-btn{
+        margin: 60px auto 40px 120px;
+    }
+
+    .instagram-btn{
+        margin:60px auto 40px 40px ;
+    }
+}
+
+@media(max-width:420px){
+    .bottom-btn{
+        width: 340px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .line-btn{
+        margin: 40px auto 20px 15px;
+    }
+
+    .instagram-btn{
+        margin: 0px auto 20px 15px;
+    }
+}
+
+@media(max-width:320px){
+    .bottom-btn{
+        width: 250px;
+        font-size: 15px;
+        height: 40px;
+        box-shadow: 5px 5px lightgray;
+        padding:0px;
+    }
+
+    .line-btn{
+        margin: 40px auto 20px 25px;
+    }
+
+    .instagram-btn{
+        margin: 0px auto 20px 25px;
+    }
+}
+
+.会社概要{
+    font-size: 20px;
+    font-family: serif;
+    text-align: left;
+    margin: 5% 20% 10% 20%;
+}
+
+.概要{
+    padding:20px;
+    border-bottom: 1px solid #CDCDCD;
+}
+
+@media(max-width:1024px){
+    .会社概要{
+        margin: 5% 5% 10% 5%;
+    }
+}
+
+@media(max-width:420px){
+    .会社概要{
+        font-size: 17px;
+        margin: 15% 5% 5% 5%;
+    }
+
+    .概要{
+        padding: 5px;
+    }
+}
+
+@media(max-width:360px){
+    .会社概要{
+        font-size: 13px;
+        word-break: keep-all;
+    }
+}
+
+.back-button{
+    position: fixed;
+    top: 600px;
+    left: 0px;
+    width: 40px;
+    background-color:rgb(29, 150, 150);
+    opacity: 0.6;
+    color: white;
+    font-family: "游ゴシック";
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    writing-mode: tb-rl;
+}
+
+.footer{
+    background-color: #8497B0;
+    padding: 30px;
+}
+
+.f-list{
+    list-style: none;
+    padding: 10px;
+}
+
+@media(max-width:420px){
+    .back-button{
+        top: 300px;
+        font-size: 10px;
+        width: 20px;
+    }
+
+    .footer{
+        padding: 5px 0px 5px 0px;
+    }
+
+    .f-list{
+        font-size: 10px;
+        padding: 2px 2px 2px 0px;
+    }
+}
